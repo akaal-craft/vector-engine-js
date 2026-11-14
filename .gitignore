@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated vector database
+data/vectors.json
+
+# Uploaded PDF documents
+data/documents/*
+!data/documents/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test and coverage output
+coverage/
+
+# Operating system
+.DS_Store
+Thumbs.db

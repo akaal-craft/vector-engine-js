@@ -1,0 +1,20 @@
+{
+  "name": "vector-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js",
+    "benchmark": "node benchmarks/hnsw.benchmark.js",
+    "app": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
+  }
+}
+
